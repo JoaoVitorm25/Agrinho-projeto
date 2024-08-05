@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Definições básicas do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Data e Hora com Previsão do Tempo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Contêiner principal -->
+    <div id="container">
+        <h1>Data e Hora Atual</h1>
+        <p id="datetime"></p>
+        <button class="button" onclick="showWeather()">Mostrar Previsão do Tempo</button>
+        <div id="weather"></div>
+        <p>Digite o nome da cidade para ver a previsão:</p>
+        <input type="text" id="city" placeholder="Cidade" oninput="autocomplete()">
+        <button class="button" onclick="searchWeather()">Buscar</button>
+        <p id="city-name"></p>
+    </div>
+
+    <!-- Mensagem acima do vídeo -->
+    <div class="message-container">
+        <h2>Hora do café, veja a previsão do tempo escutando Mozart</h2>
+    </div>
+   
+    <!-- Vídeo incorporado do YouTube -->
+    <iframe width="560" height="315" src="https://www.youtube.com/emUntitled-1bed/SWZvus6-6Yo?si=lzenTOl1ORbw7Pnr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- Conteúdo sobre a transição do campo para a cidade -->
+    <div class="content">
+        <h2>Do Campo para a Cidade</h2>
+        <p>
+            A transição do campo para a cidade é um fenômeno global que tem ocorrido de maneira acelerada nas últimas décadas. Este movimento migratório é impulsionado por diversas razões, como a busca por melhores oportunidades de emprego, acesso a serviços de saúde e educação, e a busca por uma vida mais confortável e moderna.
+        </p>
+        <p>
+            No campo, as atividades econômicas são predominantemente agrícolas, com uma rotina voltada para o cultivo da terra e a criação de animais. A vida rural é muitas vezes associada a um ritmo mais lento e a uma comunidade mais unida. Entretanto, as limitações quanto a infraestrutura e oportunidades podem levar os jovens a buscar novas perspectivas nas áreas urbanas.
+        </p>
+        <p>
+            A cidade, por outro lado, oferece uma vasta gama de serviços e oportunidades. A urbanização traz consigo a promessa de melhores empregos, acesso a uma ampla variedade de bens e serviços, além de uma vida culturalmente rica. No entanto, este movimento também apresenta desafios, como o aumento da desigualdade, a poluição e a superlotação das áreas urbanas.
+        </p>
+        <p>
+            A migração do campo para a cidade é um processo complexo que reflete as mudanças econômicas, sociais e culturais de um país. É essencial que haja políticas públicas que apoiem tanto o desenvolvimento rural quanto a integração dos migrantes nas áreas urbanas, garantindo uma transição harmoniosa e sustentável.
+        </p>
+        <a href="#" class="back-to-top" onclick="scrollToTop()">Voltar ao topo</a>
+    </div>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>Desenvolvido pelos alunos Jorge Massoquetto e João Vitor Moro</p>
+      </p>Colegio Estadual Otalipio Pereira de Andrade - 3ª Série Regular</p>
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
