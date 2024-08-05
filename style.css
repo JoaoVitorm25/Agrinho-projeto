@@ -1,0 +1,103 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte usada na página */
+    margin: 0; /* Remove as margens padrão do navegador */
+    padding: 0; /* Remove o preenchimento padrão do navegador */
+    color: #333; /* Cor do texto */
+    background: url('https://images.unsplash.com/photo-1493770348161-369560ae357d?fit=crop&w=1920&h=1080') no-repeat center center fixed; /* Imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    text-align: center; /* Centraliza o texto */
+    padding: 50px; /* Adiciona espaço interno ao redor da página */
+}
+
+/* Estilo do contêiner principal */
+#container {
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 600px; /* Largura máxima */
+    margin: auto; /* Centraliza horizontalmente */
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    color: #006400; /* Cor verde escura */
+}
+
+/* Estilo dos botões */
+.button {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    border: none; /* Remove bordas padrão */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto no centro */
+    text-decoration: none; /* Remove o sublinhado do texto */
+    display: inline-block; /* Exibe como bloco inline */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 10px; /* Margem ao redor do botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo do botão ao passar o mouse */
+.button:hover {
+    background-color: #45a049; /* Cor de fundo verde escuro */
+}
+
+/* Estilo da área de previsão do tempo */
+#weather {
+    margin-top: 20px; /* Espaço acima */
+}
+
+/* Estilo do iframe do YouTube */
+iframe {
+    margin-top: 20px; /* Espaço acima */
+    width: 100%; /* Largura total do contêiner */
+    max-width: 560px; /* Largura máxima */
+    height: 315px; /* Altura do iframe */
+    border: none; /* Remove bordas padrão */
+}
+
+/* Estilo do contêiner da mensagem acima do vídeo */
+.message-container {
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 20px auto; /* Margem ao redor e centralizado */
+    max-width: 600px; /* Largura máxima */
+}
+
+/* Estilo do conteúdo adicional */
+.content {
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco com opacidade */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 20px auto; /* Margem ao redor e centralizado */
+    max-width: 800px; /* Largura máxima */
+}
+
+/* Estilo do botão para voltar ao topo */
+.back-to-top {
+    display: inline-block; /* Exibe como bloco inline */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 20px; /* Margem ao redor */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo do botão ao passar o mouse */
+.back-to-top:hover {
+    background-color: #45a049; /* Cor de fundo verde escuro */
+}
+
+/* Estilo do rodapé */
+footer {
+    margin-top: 50px; /* Espaço acima */
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    max-width: 600px; /* Largura máxima */
+    margin: 20px auto 0; /* Margem ao redor e centralizado */
+}
